@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Lobster&display=swap');
+body{
+    background-image: url(https://images.unsplash.com/photo-1518972734183-c5b490a7c637?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+}
+.Tilte{
+    width: 500px;
+    font-size: 30px;
+    color: rgb(99, 104, 107);
+    font-family:  "Lobster", sans-serif;
+    font-size: 35px;
+}
+#selecionar-ataque{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(99, 104, 107); 
+    font-size: 20px;
+}
+.botones{
+    background-image: url(https://media.istockphoto.com/id/500507478/photo/wall.jpg?s=2048x2048&w=is&k=20&c=vS4aOt47u-o33ib5fXtDuvSb_XY5nvNTJoY2AfbJnxo=);
+    background-size: cover;
+    width: 160px;
+    height: 200px;
+    border-radius: 30px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-family:  "Alfa Slab One", serif;
+}
+#mensaje{
+    background-image: url(https://images.unsplash.com/photo-1482553978898-c361ecdedb19?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    width: 280px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 15px;
+}
+.Ataques{
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-lujo-negro-abstracto-abstracciones_361591-4132.jpg?semt=ais_items_boosted&w=740);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 100px 100px;
+    justify-items: center;
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 10px;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+#reinciar{
+    cursor: pointer;
+    border-radius: 15px;
+    width: 280px;
+    height: 25px;
+}
+@media (max-width: 360px){
+.botones{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    height: 110px;
+    justify-content: center;
+}
+.Tilte{
+    font-size: 23px;
+    align-content: center;
+    width: 325px;
+    margin-block: 5px;
+}
+#seleccionar-ataque{
+    margin-block: 5px;
+}
+}
